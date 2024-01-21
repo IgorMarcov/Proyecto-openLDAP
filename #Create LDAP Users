@@ -1,0 +1,51 @@
+#Create LDAP Users
+
+
+#El usuario lnavarror pertenece al depInformatica
+dn: uid=lnavarror,ou=usuarios,ou=depInformatica,dc=altamira,dc=raiz
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: lnavarror
+sn: navarro
+givenName: luis
+cn: luis navarro
+displayName: lnavarror Informática
+uidNumber: 10000
+gidNumber: 5000
+userPassword: 
+loginShell: /bin/bash
+homeDirectory: /home/lnavarror
+
+#El usuario salabaus pertenece al depContabilidad
+dn: uid=salabas,ou=usuarios,ou=depContabilidad,dc=altamira,dc=raiz
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: salabas
+sn: alabau
+givenName: susana
+cn: susana salabau
+displayName: salabas Informática
+uidNumber: 10001
+gidNumber: 5000
+userPassword:
+loginShell: /bin/bash
+homeDirectory: /home/salabas
+
+#El usuario pgomisz portenece al depSoporte
+dn: uid=pgomisz,ou=usuarios,ou=depSoporte,dc=altamira,dc=raiz
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: pgomisz
+sn: gomis
+givenName: pedro
+cn: pedro gomis
+displayName: pgomisz Informática
+uidNumber: 10002
+gidNumber: 5001
+userPassword:
+loginShell: /bin/bash
+homeDirectory: /home/pgomisz
+
