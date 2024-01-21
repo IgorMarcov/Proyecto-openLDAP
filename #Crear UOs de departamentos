@@ -1,0 +1,39 @@
+#Crear UOs de departamentos
+dn: ou=depInformatica,dc=altamira,dc=raiz
+objectClass: organizationalUnit
+ou: depInformatica
+
+dn: ou=depContabilidad,dc=altamira,dc=raiz
+objectClass: organizationalUnit
+ou: depContabilidad
+
+dn: ou=depSoporte,dc=altamira,dc=raiz
+objectClass: organizationalUnit
+ou: depSoporte
+
+#Crear UOs de usuarios y grupos dentro de la UO depInformatica
+dn: ou=usuarios,ou=depInformatica,dc=altamira,dc=raiz
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: ou=grupos,ou=depInformatica,dc=altamira,dc=raiz
+objectClass: organizationalUnit
+ou: grupos
+
+#Crear UOs de usuarios y grupos dentro de la UO depContabilidad
+dn: ou=usuarios,ou=depContabilidad,dc=altamira,dc=raiz
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: ou=grupos,ou=depContabilidad,dc=altamira,dc=raiz
+objectClass: organizationalUnit
+ou: grupos
+
+#Crear UOs de usuarios y grupos dentro de la UO depSoporte
+dn: ou=usuarios,ou=depSoporte,dc=altamira,dc=raiz
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: ou=grupos,ou=depSoporte,dc=altamira,dc=raiz
+objectClass: organizationalUnit
+ou: grupos
