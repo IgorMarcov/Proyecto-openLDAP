@@ -1,0 +1,17 @@
+#Grupos Globales depInformatica
+dn: cn=GGInformatica,ou=grupos,ou=depInformatica,dc=altamira,dc=raiz
+objectClass: posixGroup
+cn: GGInformatica
+gidNumber: 5000
+
+#Grupos Globales depContabilidad
+dn: cn=GGContabilidad,ou=grupos,ou=depContabilidad,dc=altamira,dc=raiz
+objectClass: posixGroup
+cn: GGRedes
+gidNumber: 5001
+
+#Grupos Globales depSoporte
+dn: cn=GGSoporte,ou=grupos,ou=depSoporte,dc=altamira,dc=raiz
+objectClass: posixGroup
+cn: GGRedes
+gidNumber: 5002
